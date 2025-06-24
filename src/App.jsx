@@ -16,6 +16,7 @@ import EventDetail from './pages/EventDetail';
 import Tutorials from './pages/Tutorials';
 import TutorialDetail from './pages/TutorialDetail';
 import Messages from './pages/Messages';
+import TestPage from './pages/TestPage';
 import './App.css';
 
 // Protected Route Component
@@ -66,6 +67,7 @@ function AppContent() {
         <Routes>
           {/* Public Routes */}
           <Route path="/" element={<Home />} />
+          <Route path="/test" element={<TestPage />} />
           <Route 
             path="/login" 
             element={
